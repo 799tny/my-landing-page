@@ -173,16 +173,9 @@ h2 {
   border: solid;
   border-color: rgba(199, 3, 173, 0.479);
 }
-
-@media (max-width: 1900px) {
-  .container {
-    font-size: 90%;
-  }
-}
-
 @media (max-width: 1440px) {
   .container {
-    font-size: 80%;
+    font-size: 90%;
   }
 }
 @media (max-width: 1024px) {
@@ -190,27 +183,70 @@ h2 {
     font-size: 75%;
   }
 }
+
 @media (max-width: 768px) {
+  /* Adjust font size and heights for screens up to 768px wide */
   .container {
     font-size: 70%;
   }
+
   .avatar {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .discover-button {
+    padding: 8px 16px;
   }
 }
+
 @media (max-width: 425px) {
-  .container {
-    font-size: 65%;
-  }
-}
-@media (max-width: 375px) {
+  /* Adjust font size and heights for screens up to 425px wide (e.g., iPhone SE) */
   .container {
     font-size: 60%;
   }
+
+  .avatar {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .discover-button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
 }
-@media (max-width: 320px) {
+
+@media (max-width: 375px) {
+  /* Adjust font size and heights for screens up to 375px wide (e.g., iPhone 6/7/8) */
   .container {
     font-size: 55%;
+  }
+
+  .avatar {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .discover-button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Adjust font size and heights for screens up to 320px wide (e.g., smaller smartphones) */
+  .container {
+    font-size: 50%;
+  }
+
+  .avatar {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .discover-button {
+    padding: 4px 8px;
+    font-size: 0.7rem;
   }
 }
