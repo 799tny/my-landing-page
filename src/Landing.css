@@ -173,48 +173,44 @@ h2 {
   border: solid;
   border-color: rgba(199, 3, 173, 0.479);
 }
-@media (max-width: 1100px) {
-  /* Adjust styles for screens with a maximum width of 768px */
-  .container {
-    font-size: 90%; /* Reduce font size for smaller screens */
-  }
 
-  .avatar {
-    width: 8rem; /* Adjust avatar size for smaller screens */
-    height: 8rem;
+@media (max-width: 1900px) {
+  .container {
+    font-size: 90%;
   }
 }
 
+@media (max-width: 1440px) {
+  .container {
+    font-size: 80%;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    font-size: 75%;
+  }
+}
 @media (max-width: 768px) {
-  /* Adjust styles for screens with a maximum width of 768px */
   .container {
-    font-size: 80%; /* Reduce font size for smaller screens */
+    font-size: 70%;
   }
-
   .avatar {
-    width: 8rem; /* Adjust avatar size for smaller screens */
-    height: 8rem;
+    width: 5.5rem;
+    height: 5.5rem;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 425px) {
   .container {
-    font-size: 70%; /* Reduce font size for smaller screens */
+    font-size: 65%;
   }
-
-  .avatar {
-    width: 6rem; /* Adjust avatar size for smaller screens */
-    height: 6rem;
+}
+@media (max-width: 375px) {
+  .container {
+    font-size: 60%;
   }
 }
 @media (max-width: 320px) {
   .container {
-    font-size: 60%; /* Further reduce font size for very small screens */
+    font-size: 55%;
   }
-
-  .avatar {
-    width: 4rem; /* Adjust avatar size for very small screens */
-    height: 4rem;
-  }
-
-  /* Add more responsive styles as needed */
 }
