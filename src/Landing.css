@@ -200,7 +200,7 @@ h2 {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 485px) {
   /* Adjust font size and heights for screens up to 425px wide (e.g., iPhone SE) */
   .container {
     font-size: 60%;
